@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import plotly.graph_objects as go
 
 @st.cache_resource
 def load_model():
